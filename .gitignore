@@ -33,9 +33,22 @@ instance/
 
 # Environments
 .env
+.env.*
+!.env.example
 .venv/
+.venv_blocksnet/
 venv/
 ENV/
+
+# Local cache and temporary files
+cache/
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+# Local research data (large files; share separately or use Git LFS)
+data_stavropol/
 
 # MyPy
 .mypy_cache/

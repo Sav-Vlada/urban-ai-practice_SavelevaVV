@@ -33,6 +33,8 @@ local_scheme = "no-local-version"
 
 [project.optional-dependencies]
 dev = [ # зависимости, необходимые для разработки библиотеки, но не для её использования
+    "blocksnet[ipynb]==1.0.0a9", # BlocksNet для учебного исследования территории
+    "osmium==4.3.2",            # Чтение файла OpenStreetMap (.osm.pbf) для пешеходного графа
     "black[jupyter]==22.3",     # Форматирование, включая поддержку Jupyter
     "mapclassify==2.6.1",       # Визуализация данных в Jupyter
     "folium==0.14.0",           # Карты для Jupyter
