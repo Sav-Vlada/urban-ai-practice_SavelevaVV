@@ -36,8 +36,11 @@ For more detailed use case see our `examples <#examples>`__.
 Data
 ----
 
-All the required data is stored in `examples
-data folder <./examples/data>`__.
+Исходные и промежуточные данные исследования находятся в папке
+`data_stavropol <https://drive.google.com/drive/folders/1yjKuyv8j9zPnoNSMT7FjI8iPxEWwBqTe?usp=sharing>`__.
+
+Папка занимает около 263 МБ, поэтому она не хранится в Git.
+Демонстрационные данные примеров остаются в `examples/data <./examples/data>`__.
 
 Examples
 --------
